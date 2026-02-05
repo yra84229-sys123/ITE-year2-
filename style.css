@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+/* Cover page style */
+.page {
+  width: 900px;
+  margin: 30px auto;
+  background: #fefefe;
+  border: 2px solid #334155;
+  padding: 50px 60px;
+  position: relative;
+  border-radius: 12px;
+}
+
+/* Logo */
+.logo img {
+  width: 90px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 26px;
+  margin: 20px 0;
+  color: #0f172a;
+  letter-spacing: 1px;
+}
+
+/* Submitted to & Author sections */
+.submitted, .author {
+  margin-top: 40px;
+}
+
+.submitted h3, .author h3 {
+  margin: 5px 0;
+  color: #1e3a8a;
+}
+
+.small {
+  font-size: 14px;
+  color: #334155;
+}
+
+/* Date */
+.date {
+  text-align: center;
+  font-style: italic;
+  color: #475569;
+  margin: 30px 0;
+}
+
+/* Description */
+.description {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Main content area (dark blue) */
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #1f242c; /* dark blue background */
+  color: white;               /* text color for readability */
+  min-height: 100vh;
+}
+
+/* Sections inside content */
+section {
+  display: none; /* hide by default */
+}
+
+section.active {
+  display: block;
+}
+
+/* Sidebar menu */
+.menu {
+  width: 220px;
+  background: #e0f2fe;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.menu h3 {
+  margin-top: 0;
+}
+
+.menu button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  border: none;
+  background: #bae6fd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background: #7dd3fc;
+}
+
+/* Cards inside content */
+.card {
+  display: none;
+  background: #7a92b0; /* lighter blue for contrast */
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+}
+
+.card.active {
+  display: block;
+}
+
+/* Inputs and buttons */
+input {
+  width: 95%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e3a8a;
+}
+
+.result {
+  margin-top: 10px;
+  background: #e0f2fe;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: #f1f5f9;
+}
